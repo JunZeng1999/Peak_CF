@@ -13,7 +13,7 @@ def main():
     random.seed(0)
 
     # validation sets
-    split_rate = 0.3
+    split_rate = 0.36
 
     # Eic_photo folder
     cwd = os.getcwd()
@@ -37,6 +37,14 @@ def main():
     for cla in Eic_class:
         # Create folders for each category
         mk_file(os.path.join(val_root, cla))
+    
+    # Create a folder to save test sets
+    test_root = os.path.join(data_root, "test")
+    mk_file(test_root)
+    for cla in Eic_class:
+        # Create folders for each category
+        mk_file(os.path.join(test_root, cla))
+    a = 0.75
 
     for cla in Eic_class:
         cla_path = os.path.join(origin_Eic_path, cla)
@@ -44,11 +52,19 @@ def main():
         num = len(images)
         # random sampling
         eval_index = random.sample(images, k=int(num*split_rate))
+        num1 = int(len(eval_index) * a)
+        eval_index1 = eval_index[0:num1]
+        eval_index2 = eval_index[num1:]
         for index, image in enumerate(images):
-            if image in eval_index:
+            if image in eval_index1:
                 # copy the files assigned to the validation set to the appropriate directory
                 image_path = os.path.join(cla_path, image)
                 new_path = os.path.join(val_root, cla)
+                copy(image_path, new_path)
+            elif image in eval_index2:
+                # copy the files assigned to the test set to the appropriate directory
+                image_path = os.path.join(cla_path, image)
+                new_path = os.path.join(test_root, cla)
                 copy(image_path, new_path)
             else:
                 # copy the files assigned to the training set to the appropriate directory
