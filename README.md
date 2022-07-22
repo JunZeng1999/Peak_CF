@@ -16,7 +16,7 @@ https://doi.org/10.1016/j.aca.2022.340189
 
 # Usage
 * Create three folders for the results of the operations (your path/photo, peak, result)
-* Copy the data file (example.mzML) to the current directory
+* Copy the data file (.mzML) to the current directory
 * Open Peak_CF.py(Modify parameters, Loading the trained model weights, Modify the path where the results are saved)
 * Open draw_box_utils.py(Modify parameters, Modify the path to save the result)
 * Run Peak_CF.py
