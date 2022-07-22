@@ -1,11 +1,13 @@
 # Peak_CF
-Peak_CF is an automatic method based on convolutional neural network (CNN) for image classification and Faster R-CNN for peak location/ classification in untargeted LC-HRMS data.
+
+* Peak_CF is an automatic method based on convolutional neural network (CNN) for image classification and Faster R-CNN for peak location/ classification in untargeted LC-HRMS data.
 
 ![1-s2 0-S0003267022007607-ga1_lrg](https://user-images.githubusercontent.com/109707707/180228801-f7531403-c59b-417f-a941-c8f919913054.jpg)
 
 # Cite
-Image classification combined with faster R–CNN for the peak detection of complex components and their metabolites in untargeted LC-HRMS data
-https://doi.org/10.1016/j.aca.2022.340189
+
+* Image classification combined with faster R–CNN for the peak detection of complex components and their metabolites in untargeted LC-HRMS data
+* Link: https://doi.org/10.1016/j.aca.2022.340189
 
 # Requirements for Peak_CF operation
 * Python, version 3.7 or greater
