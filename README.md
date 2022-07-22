@@ -21,4 +21,4 @@ https://doi.org/10.1016/j.aca.2022.340189
 * Open Peak_CF.py(Modify parameters, Loading the trained model weights, Modify the path where the results are saved)
 * Open draw_box_utils.py(Modify parameters, Modify the path to save the result)
 * Run Peak_CF.py
-* The more detailed instruction on how to use Peak_CF is available via the link().
+* The more detailed instruction on how to use Peak_CF is available via the link(https://pan.baidu.com/s/1VbuS4V3thF6xJnFH9DRu_Q?pwd=peak).
