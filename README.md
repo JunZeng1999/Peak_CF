@@ -17,8 +17,7 @@ https://doi.org/10.1016/j.aca.2022.340189
 # Usage
 * Create three folders for the results of the operations (your path/photo, peak, result)
 * Copy the data file (.mzML) to the current directory
-* Download the model (link：https://pan.baidu.com/s/1s5XpYJc0l5wvUfX_3wacrw 
-password：peak), then unzip it into the save_weights folder.
+* Download the model (link：https://pan.baidu.com/s/1h4B7ZrkiF-twbPTDnf8LgQ?pwd=peak), then unzip it into the save_weights folder.
 * Open Peak_CF.py(Modify parameters, Loading the trained model weights, Modify the path where the results are saved)
 * Open draw_box_utils.py(Modify parameters, Modify the path to save the result)
 * Run Peak_CF.py
