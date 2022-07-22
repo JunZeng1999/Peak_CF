@@ -1,7 +1,6 @@
 *.mzML
-.idea/
-*__pycache__*
-save_weights/
-VOCdevkit/
-data_set/Eic_data/
+/__pycache__
+/save_weights/
+/VOCdevkit/
+/data_set/Eic_data/
 *.zip
