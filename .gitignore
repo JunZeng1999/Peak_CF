@@ -2,7 +2,7 @@
 /__pycache__
 save_weights/
 VOCdevkit/
-data_set/
+data_set/Eic_data
 *.zip
 *.txt
 *.pth
